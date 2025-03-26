@@ -1,5 +1,7 @@
-# Multi-Model Chatbot with Text & Audio Input
-
+<div align="center">
+<h1> Multi-Model Chatbot with Text & Audio Input</h1>
+</div>
+<div align= "justify">
 This is a Streamlit-based chatbot that supports multiple LLMs and allows users to interact using text or audio. The chatbot can transcribe speech, generate responses using OpenAI, Groq, and Gemini models, and convert text responses back to speech.
 
 ![Chatbot UI](https://github.com/harshit4032/chatbot/blob/main/Chatbot_ui.png)
@@ -101,5 +103,5 @@ streamlit run app.py
 
 ## Contributing
 Feel free to fork the repo, open issues, or submit pull requests.
-
+</div>
 
