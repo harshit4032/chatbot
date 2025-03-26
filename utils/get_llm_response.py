@@ -10,11 +10,12 @@ import os
 load_dotenv()
 import  streamlit as st
 
-os.environ["GROQ_API_KEY"] =  os.getenv('GROQ_API_KEY')
-# os.environ["ANTHROPIC_API_KEY"] = config("ANTHROPIC_API_KEY")
-os.environ["GOOGLE_API_KEY"] = os.getenv('GOOGLE_API_KEY')
 groq_api_key = st.secrets["GROQ_API_KEY"]
 google_api_key = st.secrets["GOOGLE_API_KEY"]
+
+# os.environ["GROQ_API_KEY"] =  os.getenv('GROQ_API_KEY')
+# os.environ["ANTHROPIC_API_KEY"] = config("ANTHROPIC_API_KEY")
+# os.environ["GOOGLE_API_KEY"] = os.getenv('GOOGLE_API_KEY')
 
 def get_openai_llm_response(transcribed_text):
     # Define the prompt template using LCEL

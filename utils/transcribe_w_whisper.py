@@ -4,8 +4,8 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 import streamlit as st
-os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 openai_api_key = st.secrets["OPENAI_API_KEY"]
+# os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 
 client = OpenAI()
 
