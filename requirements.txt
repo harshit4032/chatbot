@@ -1,0 +1,11 @@
+streamlit
+soundfile
+openai
+dotenv
+langchain_core
+langchain_openai
+langchain_groq
+langchain_google_genai
+watchdog
+langchain
+langchain_community
