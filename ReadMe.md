@@ -4,6 +4,7 @@
 <div align= "justify">
 This is a Streamlit-based chatbot that supports multiple LLMs and allows users to interact using text or audio. The chatbot can transcribe speech, generate responses using OpenAI, Groq, and Gemini models, and convert text responses back to speech.
 
+
 ![Chatbot UI](https://github.com/harshit4032/chatbot/blob/main/Chatbot_ui.png)
 
 
@@ -11,6 +12,28 @@ This is a Streamlit-based chatbot that supports multiple LLMs and allows users t
 [Try the Chatbot Here](https://harsh4032multimodelbot.streamlit.app)
 
 ---
+
+## System Architecture: Comparative Overview
+
+### Approach 1: Basic Voice Bot
+The [Voice-Bot](https://github.com/harshit4032/Voice-Bot) represents the initial approach, featuring:
+
+Single LLM Integration: Utilizes a single language model for response generation.
+Limited Input Modalities: Primarily supports audio input without fallback to text.
+Basic Error Handling: Minimal mechanisms for handling transcription or model failures.
+
+### Approach 2: Enhanced Multi-Model Chatbot (This Project)
+This project builds upon Approach 1 by introducing:
+
+Multi-Model Support: Integrates OpenAI GPT-3.5, Deepseek-r1-distill-llama-70b, and Gemini Pro 1.5.
+Dual Input Modes: Accepts both text and audio inputs, enhancing accessibility.
+Robust Error Handling: Implements fallback mechanisms and redundancy for improved reliability.
+Enhanced User Interface: Offers a more interactive and user-friendly Streamlit UI.
+Reliability Block Diagram
+
+This diagram illustrates the enhanced reliability and functionality of Approach 2 compared to Approach 1.
+
+![Reliability Diagram of both approaches](https://github.com/harshit4032/chatbot/blob/main/Voice_Bot.drawio.png)
 
 ## Flowchart
 ```mermaid
